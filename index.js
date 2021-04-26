@@ -19,6 +19,10 @@ app.get("/duvida", (req, res) => {
     res.sendFile(__dirname + "/public/html/duvida.html");
 })
 
+app.get("/aluno", (req, res) => {
+    res.sendFile(__dirname + "/public/html/aluno.html");
+})
+
 app.use(express.urlencoded({
     extended:true
 }));
