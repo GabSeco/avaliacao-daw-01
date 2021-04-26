@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="/public/css/style.css" />
+</head>
+
+<body>
+    <header>DESENVOLVIMENTO DE APLICAÇÕES WEB</header>
+    <ul>
+        <li><a href="/public/html/eu.html">Eu</a></li>
+        <li><a href="/public/html/aluno.html">Aluno</a></li>
+        <li><a href="/public/html/duvida.html">Dúvida</a></li>
+    </ul>
+    <div id="content">
+        <div id="content-image"><img src="/public/img/pic1.png" width="50%" height="768px"></div>
+        <div id="content-text">
+            <h1>Quais as diferenças entre aplicações web e sistemas tradicionais?</h1>
+            <p>
+                É importante deixarmos claro que aplicações web e sistemas tradicionais não são a mesma coisa! Os
+                sistemas
+                tradicionais apresentam o mesmo resultado para todos, ou seja, não há adaptações ou navegações
+                personalizadas de
+                acordo com cada visitante. Agora, quando você abre o Facebook, a sua página não é a mesma encontrada
+                pelos seus
+                amigos — as permissões, a usabilidade e a visualização são diferentes —, algo característico de
+                aplicações web.
+                Além disso, não é preciso qualquer tipo de instalação nas máquinas quando se trata de aplicações web. O
+                mesmo
+                não ocorre quando falamos em sistemas tradicionais, que precisam ser adaptados para cada sistema
+                operacional e
+                dependem de instalação e atualizações manuais.
+                Outro ponto é que as aplicações web não passam por problemas de instabilidade por incompatibilidade com
+                outros
+                softwares, um aspecto extremamente comum em soluções tradicionais.
+            </p>
+            <p>Fonte: <a
+                    href="https://blog.betrybe.com/desenvolvimento-web/aplicacoes-web/#:~:text=nossa%20newsletter%20semanal!-,Quais%20as%20diferenças%20entre%20aplicações%20web%20e%20sistemas%20tradicionais%3F,de%20acordo%20com%20cada%20visitante.">https://blog.betrybe.com</a>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>GABRIEL MARTINS GARCIA SECO</p>
+        <p id="current-date"></p>
+    </footer>
+    <script type="text/javascript">
+        showCurrentDate = () => {
+            var date = new Date();
+            document.getElementById("current-date").innerHTML = date.getDate() + "/" + date.getMonth() + "/" + date.getFullYear();
+        }
+        
+        setTimeout(showCurrentDate(), 4000);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+#index{
+  background-color: black;
+  padding: 20px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#performed{
+  width: 700px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+p{
+  font-size: 20px;
+}
+
+li{
+  font-size: 20px;
+}
