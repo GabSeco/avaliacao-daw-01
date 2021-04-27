@@ -7,7 +7,48 @@
 </head>
 
 <body>
-    <div id="index"><a href="/public/html/index.html">Início</a></div>
-    
+    <header>DESENVOLVIMENTO DE APLICAÇÕES WEB</header>
+    <ul>
+        <li><a href="/public/html/index.html">Início</a></li>
+        <li><a href="/public/html/eu.html">Eu</a></li>
+        <li><a href="/public/html/aluno.html">Aluno</a></li>
+        <li><a href="/public/html/duvida.html">Dúvida</a></li>
+    </ul>
+    <div id="content">
+        <div id="table1">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Nome</td>
+                        <td>Email</td>
+                    </tr>
+                </thead>
+                <tbody id="alunosTable">
+                </tbody>
+            </table>
+        </div>
+        <div id="table2">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Nome</td>
+                        <td>Email</td>
+                    </tr>
+                </thead>
+                <tbody id="alunosTableFiltro">
+                </tbody>
+            </table>
+            <input type="text" id="filtraNome">
+            <button type="submit" id="buttonFiltraNome" onclick="filtraAlunos()">Buscar</button>
+        </div>
+    </div>
+    <footer>
+        <p>GABRIEL MARTINS GARCIA SECO</p>
+        <p id="current-date"></p>
+    </footer>
+    <script type="text/javascript" src="/public/javascript/script.js"></script>
+    <script type="text/javascript" src="/public/javascript/lib/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="/public/javascript/alunos.js"></script>
 </body>
+
 </html>

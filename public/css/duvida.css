@@ -1,10 +1,96 @@
-#index{
-    background-color: black;
-    padding: 20px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+header{
+  padding: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 25px;
+}
+
+#content{
+  background-color: rgba(82, 173, 173, 0.178);
+  height: 720px;
+}
+
+#form1{
+  width: 500px;
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+}
+
+#email{
+  width: 300px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: hsl(0, 0%, 95%);
+  margin-left: 50px;
+  margin-top: 20px;
   }
-  
-  a{
+
+  #description{
+    width: 500px;
+    height: 250px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: hsl(0, 0%, 95%);
+    resize: none;
+    margin-left: 115px;
+    margin-top: -20px;
+  }
+
+  #sendButton{
+    background-color: #000000;
+    width: 300px;
+    border: none;
     color: white;
+    padding: 10px 15px;
+    text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 315px;
+    float: left;
   }
+
+label{
+  font-size: 20px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(51, 45, 45);
+  color: white;
+  text-indent: 20px;
+  line-height: 20px;
+}
